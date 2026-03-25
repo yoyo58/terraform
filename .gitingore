@@ -1,0 +1,8 @@
+Set-Content .gitignore @"
+.terraform/
+*.exe
+*.tfstate
+*.tfstate.backup
+secrets.json
+tfplan
+"@
